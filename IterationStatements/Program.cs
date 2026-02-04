@@ -7,7 +7,7 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
-            // TODO: Follow the instructions provided in each comment below to complete the exercise.
+            // TODO: Follow the instructions provided in each comment below to complete the exercise.   -- COMPLETED
             // Use the example given to guide your implementation.
 
             //Create a List called "numbers" - DONE!
@@ -54,7 +54,7 @@ namespace IterationStatements
             // The existing brackets are placeholders for your loop code.
             // Inside this loop, print each number in "numbers".
             
-            foreach(int number in numbers)
+            foreach(var number in numbers)
             {
                 Console.WriteLine(number);
             }
